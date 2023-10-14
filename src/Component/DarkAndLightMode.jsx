@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "./Layout/Header";
 
 export default function DarkAndLightMode() {
     const [mode, setMode] = useState('light');
@@ -17,6 +18,7 @@ export default function DarkAndLightMode() {
 
     return (
         <>
+            <Header />
             <div className="">
                 <h2 style={{ color: mode === 'dark' ? 'white' : 'black' }} className="text-xl font-bold text-center py-5"> This is Dark And Light Mode Button</h2>
 
