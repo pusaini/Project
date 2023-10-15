@@ -13,15 +13,23 @@ export default function Header() {
                     <div class="ml-2">
                         <ul className='list-style-none  mr-2px flex flex-col pl-0 lg:flex-row '>
                             <li className='mb-4 lg:mb-0 lg:pr-2'>
-                                <Link class="text-xl font-semibold text-neutral-800 dark:text-neutral-200"
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/">Home</Link>
                             </li>
                             <li  className='mb-4 lg:mb-0 lg:pr-2'>
-                                <Link class="text-xl font-semibold text-neutral-800 dark:text-neutral-200"
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/calculator">Calculator</Link>
                             </li>
+                            <li  className='mb-4 lg:mb-0 lg:pr-2'>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/carousel"> Carousel</Link>
+                            </li>
+                            <li  className='mb-4 lg:mb-0 lg:pr-2'>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/imageImport"> ImageImport</Link>
+                            </li>
                             <li  className='mb-4 lg:mb-2 lg:pr-2'>
-                                <Link class="text-xl font-semibold text-neutral-800 dark:text-neutral-200"
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/darkAndLightMode">DarkAndLightMode</Link>
                             </li>
                         </ul>

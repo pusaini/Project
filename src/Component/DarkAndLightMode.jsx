@@ -19,7 +19,7 @@ export default function DarkAndLightMode() {
     return (
         <>
             <Header />
-            <div className="">
+            <div >
                 <h2 style={{ color: mode === 'dark' ? 'white' : 'black' }} className="text-xl font-bold text-center py-5"> This is Dark And Light Mode Button</h2>
 
                 <div className="flex justify-center items-center h-screen">
