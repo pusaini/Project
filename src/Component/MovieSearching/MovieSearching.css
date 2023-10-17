@@ -1,5 +1,7 @@
+
+
 .bg {
-    background: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 63%)), url(http://public/images/movie.jpg);
+    background: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 63%)), url(./movie.jpg);
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;

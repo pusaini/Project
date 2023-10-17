@@ -32,7 +32,7 @@ function MovieSearching() {
             <NavbarMovieSearching />
             <div className='bg'>
 
-                <SearchBar searchMovie={searchMovie} setSearchMovie={setSearchMovie} fetchMovieData={fetchMovieData}/>
+                <SearchBar searchMovie={searchMovie} setSearchMovie={setSearchMovie} fetchMovieData={fetchMovieData} />
                 <MovieCard allMovieData={allMovieData} loading={loading} />
 
             </div>
