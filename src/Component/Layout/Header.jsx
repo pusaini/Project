@@ -11,10 +11,14 @@ export default function Header() {
                 class="relative flex w-full flex-wrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">
                 <div class="flex w-full flex-wrap items-center justify-between px-3">
                     <div class="ml-2">
-                        <ul className='list-style-none  mr-2px flex flex-col pl-0 lg:flex-row '>
-                            <li className='mb-4 lg:mb-0 lg:pr-2'>
+                        <ul className='flex space-x-4 '>
+                            <li className='mb-4 lg:mb-0 lg:pr-2 '>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/">Home</Link>
+                            </li>
+                            <li className='mb-4 lg:mb-0 lg:pr-2 '>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/project">Project</Link>
                             </li>
                             <li  className='mb-4 lg:mb-0 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
@@ -31,6 +35,10 @@ export default function Header() {
                             <li  className='mb-4 lg:mb-2 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/darkAndLightMode">DarkAndLightMode</Link>
+                            </li>
+                            <li  className='mb-4 lg:mb-2 lg:pr-2'>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/movieSearching">MovieSearching</Link>
                             </li>
                         </ul>
                     </div>

@@ -6,6 +6,8 @@ import Header from './Component/Layout/Header';
 import Home from './Component/Home';
 import Carousel from './Component/Carousel';
 import ImageImport from './Component/ImageImport';
+import Project from './Component/Projects/Project';
+import MovieSearching from './Component/MovieSearching/MovieSearching';
 
 
 
@@ -19,10 +21,12 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home />}></Route>
+          <Route path="project" element={<Project/>}></Route>
           <Route path="calculator" element={<Calculator />}></Route>
           <Route path="carousel" element={<Carousel />}></Route>
           <Route path="imageImport" element={<ImageImport />}></Route>
           <Route path="darkAndLightMode" element={<DarkAndLightMode />}></Route>
+          <Route path="movieSearching" element={<MovieSearching />}></Route>
 
         </Routes >
       </Router >
