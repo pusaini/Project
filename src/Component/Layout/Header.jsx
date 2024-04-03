@@ -5,7 +5,7 @@ export default function Header() {
     return (
 
         <>
-            
+
 
             <nav
                 class="relative flex w-full flex-wrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">
@@ -20,25 +20,33 @@ export default function Header() {
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/project">Project</Link>
                             </li>
-                            <li  className='mb-4 lg:mb-0 lg:pr-2'>
+                            <li className='mb-4 lg:mb-0 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/calculator">Calculator</Link>
                             </li>
-                            <li  className='mb-4 lg:mb-0 lg:pr-2'>
+                            <li className='mb-4 lg:mb-0 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/carousel"> Carousel</Link>
                             </li>
-                            <li  className='mb-4 lg:mb-0 lg:pr-2'>
+                            <li className='mb-4 lg:mb-0 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/imageImport"> ImageImport</Link>
                             </li>
-                            <li  className='mb-4 lg:mb-2 lg:pr-2'>
+                            <li className='mb-4 lg:mb-2 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/darkAndLightMode">DarkAndLightMode</Link>
                             </li>
-                            <li  className='mb-4 lg:mb-2 lg:pr-2'>
+                            <li className='mb-4 lg:mb-2 lg:pr-2'>
                                 <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
                                     to="/movieSearching">MovieSearching</Link>
+                            </li>
+                            <li className='mb-4 lg:mb-2 lg:pr-2'>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/rockPaperScissors">RockPaperScissors</Link>
+                            </li>
+                            <li className='mb-4 lg:mb-2 lg:pr-2'>
+                                <Link class="text-xl font-semibold text-orange-500 dark:text-neutral-200"
+                                    to="/colorChange">ColorChange</Link>
                             </li>
                         </ul>
                     </div>

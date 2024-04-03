@@ -8,6 +8,8 @@ import Carousel from './Component/Carousel';
 import ImageImport from './Component/ImageImport';
 import Project from './Component/Projects/Project';
 import MovieSearching from './Component/MovieSearching/MovieSearching';
+import RockPaperScissors from './Component/Game/RockPaperScissors';
+import ColorChange from './Component/ColorChange/ColorChange';
 
 
 
@@ -27,6 +29,8 @@ function App() {
           <Route path="imageImport" element={<ImageImport />}></Route>
           <Route path="darkAndLightMode" element={<DarkAndLightMode />}></Route>
           <Route path="movieSearching" element={<MovieSearching />}></Route>
+          <Route path="rockPaperScissors" element={<RockPaperScissors />}></Route>
+          <Route path="colorChange" element={< ColorChange/>}></Route>
 
         </Routes >
       </Router >
